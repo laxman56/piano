@@ -1,0 +1,199 @@
+.main{
+	background: #878787;
+	width: 100%;
+  padding: 33px 0;
+
+}
+
+canvas { 
+    display: inline-block; 
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url("../images/visualizer-back.png");
+    border-radius: 10px;
+    background-size: 100%;
+
+    /*margin-left: 14px;*/
+  }
+
+
+.piano-body{
+  max-width: 64em;
+	margin: 0 auto;
+  background-image: url("../images/piano-background.png");
+  background-repeat: repeat-x;
+  padding: 10px 34px;
+  border-radius: 10px;
+  height: 560px;
+}
+
+.header-wrapper{
+  width: 100%;
+  height: 100px;
+  padding: 14px 0;
+}
+
+.logo{
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  width: 27.34375%;
+  height: 100%;
+  float: left;
+  border-radius: 10px;
+  background-size: 100%;
+}
+
+
+.visualizer{
+  width: 48.828125%;
+  background-repeat: repeat-x;
+  height: 100px;
+  margin-left: 4px;
+  float: left;
+  padding: 0 12px;
+
+}
+
+.options{
+  float: left;
+  width: 20.8984375%; 
+  height: 100%;
+}
+
+.options .record{
+  width: 33.17757009345794%;
+  height: 100%;
+  float: left;
+  background-position: 50%;
+}
+
+.record.active{
+  background-image: url("../images/active-record.png");
+  background-repeat: no-repeat;
+
+
+}
+
+.record.in-active{
+  background-image: url("../images/inactive-record.png");
+  background-repeat: no-repeat;
+
+}
+
+
+
+.record.play{
+  background-image: url("../images/play-button.png");
+  background-repeat: no-repeat;
+}
+
+.record.pause{
+  background-image: url("../images/pause-button.png");
+  background-repeat: no-repeat;
+}
+
+
+.record.stop{
+  background-image: url("../images/stop-button.png");
+  background-repeat: no-repeat;
+}
+
+
+.header-base{
+  width: 100%;
+  height: 20px;
+  background-image: url("../images/header-base.png");
+  background-repeat: repeat-x;
+  border-radius: 5px;
+  padding-bottom: 20px;
+
+}
+
+.background-music{
+  width: 100%;
+  height: 100px;
+  padding: 10px 0;
+  /*background: red;*/
+}
+
+.drum-wrapper{
+  float: right;
+}
+
+.drum{
+  width: 50px;
+  text-align: center;
+  padding: 15px;
+  background: #222222;
+  float: right;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-right: 2px;
+
+
+}
+
+.drum.active{
+  background: #111111;
+  color: red;
+}
+
+.volume-controller{
+  clear: both;
+  float: right;
+}
+
+
+.learn-piano{
+  float: left;
+  padding-bottom: 50px;
+}
+
+select{
+  background: #222222;
+}
+
+.key-container{
+  width: 100%;
+  height: 224px;
+}
+
+.key{
+  background: #ededed;
+  float: left;
+  width: 46px;
+  height: 220px;
+  border: 2px solid #090909;
+  border-radius: 5px;
+  line-height: 350px;
+}
+
+.octave{
+  width: 33.33%;
+  float: left;
+  height: 300px;
+  position: relative;
+
+}
+
+
+.key.active{
+  background: #a6a7a7;
+}
+
+.key.high-notes.active{
+  background: #1b1c1c;
+}
+
+.key.high-notes{
+  background: black;
+  width: 28px;
+  height: 110px;
+  border: 2px solid #090909;
+  position: absolute;
+  font-size: 10px;  
+  line-height: 50px;
+}
+
+
